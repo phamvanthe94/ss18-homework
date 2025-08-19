@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>SS18_ex05</title>
+    <link rel="stylesheet" href="./SS18_ex05.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quản lý danh sách sinh viên</h1>
+      <div class="form">
+        <input type="text" id="name" placeholder="Tên sinh viên" />
+        <input type="number" id="age" placeholder="Tuổi" />
+        <input type="text" id="className" placeholder="Lớp" />
+        <button onclick="addStudent()">Thêm sinh viên</button>
+      </div>
+      <input type="text" id="search" placeholder="Tìm kiếm sinh viên " />
+      <table>
+        <thead>
+          <tr>
+            <th>Tên</th>
+            <th>Tuổi</th>
+            <th>Lớp</th>
+            <th>Hành động</th>
+          </tr>
+        </thead>
+        <tbody id="student-list"></tbody>
+      </table>
+    </div>
+    <script src="./SS18_ex05.js"></script>
+  </body>
+</html>
